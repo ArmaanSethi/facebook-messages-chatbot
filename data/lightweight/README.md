@@ -1,7 +1,3 @@
-# facebook-messages-chatbot
-Create a chatbot from your facebook messages
-
-
 You can create your own dataset using a simple custom format where one line correspond to one line of dialogue. Use `===` to separate conversations between 2 people. Example of conversation file:
 
 
@@ -22,9 +18,4 @@ from E to F
 from F to E
 ```
 
-To use your conversation file `<name>.txt`, copy it in this repository (to data/lightweight) and launch the program with the option `--corpus lightweight --datasetTag <name>`.
-
-run with 
-```python
-python3 main.py --corpus lightweight --datasetTag chatbot
-```
+To use your conversation file `<name>.txt`, copy it in this repository and launch the program with the option `--corpus lightweight --datasetTag <name>`.
