@@ -26,5 +26,10 @@ To use your conversation file `<name>.txt`, copy it in this repository (to data/
 
 run with 
 ```
-python3 main.py --corpus lightweight --datasetTag chatbot
+python3 main.py --datasetTag <name>
+```
+
+For example, if your conversation file is `chatbot.txt`
+```
+python3 main.py --datasetTag chatbot
 ```
