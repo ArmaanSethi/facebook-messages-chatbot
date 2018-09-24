@@ -22,7 +22,7 @@ from E to F
 from F to E
 ```
 
-To use your conversation file `<name>.txt`, copy it in this repository (to data/lightweight) and launch the program with the option `--corpus lightweight --datasetTag <name>`.
+To use your conversation file `<name>.txt`, copy it in this repository (to data/lightweight) and launch the program with the option `--datasetTag <name>`.
 
 run with 
 ```
